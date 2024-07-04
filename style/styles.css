@@ -3,7 +3,7 @@
     padding: 0;
 }
 h1{
-    color: red;
+    color: rgb(205, 175, 175);
     font-style: italic;
     font-weight: lighter;
     font-family: Arial, Helvetica, sans-serif;
@@ -12,13 +12,32 @@ h1{
     text-align: center;
 }
 #heading-parent {
-    background-color: rgb(24, 1, 1);
+    background-image: url(../asset/herobg.gif.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 600px;
     padding: 100px 0;
-    width: 1100px;
+    max-width: 1100px;
+    clip-path: polygon(100% 0, 100% 66%, 71% 100%, 0 100%, 0 0);
+   /* tumi jodi 1100px er beshi width pao tahole only 1100px e nao na hole 100% nao.
    /* margin-top: 40px;
     margin-bottom: 10px;
     margin-left: auto;
     margin-right: auto;*/
     margin: 30px auto;
+}
+.btn-parent{
+    text-align: center;
+    margin: 20px;
+}
+.btn{
+    background-color: rgb(72, 3, 63);
+    padding: 8px 15px;
+    color: #fff;
+    bottom: solid;
+    border-width: 1px;
+    border-color: rgb(99, 99, 7);
+    border-radius: 6px;
+    text-align: center;
+    font-size: 25px;
 }
